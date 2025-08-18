@@ -1,0 +1,94 @@
+[project]
+name = "tongsim"
+dynamic = ["version"]
+description = "Python SDK for the TongSim simulation and training platform built on Unreal Engine."
+readme = "README.md"
+authors = [
+    { name = "wukunlun", email = "wukunlun@bigai.ai" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "grpcio>=1.71.0",
+    "grpcio-tools>=1.71.0",
+    "pydantic>=2.11.3",
+    "pyglm>=2.8.1",
+    "tongsim-api-protocol @ https://github.com/bigai-ai/tongsim-agiuc-sdk/releases/download/v0.3.2/tongsim_api_protocol-0.0.27-py3-none-any.whl",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.version]
+path = "src/tongsim/version.py"
+
+[dependency-groups]
+dev = [
+    "black>=24.10.0",
+    "pre-commit>=4.2.0",
+    "ruff>=0.9.1",
+]
+docs = [
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.6.9",
+    "mkdocs-redirects>=1.2.2",
+    "mkdocstrings-python>=1.16.8",
+]
+test = [
+    "numpy>=2.2.4",
+    "pytest>=8.3.5",
+    "pytest-asyncio>=0.26.0",
+]
+
+[tool.uv]
+default-groups = [
+  'dev',
+  'docs'
+  ]
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
+default = true
+
+[tool.ruff]
+exclude = [
+    "**/generated/**",  # 把 proto 输出的目录排除
+]
+
+[tool.ruff.lint]
+select = [
+  "B",   # flake8-bugbear
+  "C",   # flake8-comprehensions
+  "E",   # pycodestyle errors
+  "F",   # pyflakes
+  "FA",  # flake8-future-annotations
+  "I",   # isort
+  "N",   # pep8-naming
+  "RET", # flake8-return
+  "RUF", # Ruff-specific rules
+  "SIM", # flake8-simplify
+  "T20", # flake8-print
+  "UP",  # pyupgrade
+  "W",   # pycodestyle warnings
+  "Q",   # flake8-quotes
+  "SLF", # flake8-self
+  "RSE", # flake8-raise
+]
+ignore = [
+  "E501",         # line too long
+  "RUF002",       # full-width in docstring
+  "RUF003",       # full-width in comment
+]
+
+[tool.ruff.lint.per-file-ignores]
+"examples/**" = ["T201"]       # print can be used in example
+"scripts/**" = ["T201"]       # print can be used in scripts
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "session"
+asyncio_default_test_loop_scope = "session"

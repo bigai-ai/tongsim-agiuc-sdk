@@ -1,0 +1,1073 @@
+version = 1
+revision = 1
+requires-python = ">=3.11"
+
+[[package]]
+name = "annotated-types"
+version = "0.7.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/annotated-types/0.7.0/annotated_types-0.7.0.tar.gz", hash = "sha256:aff07c09a53a08bc8cfccb9c85b05f1aa9a2a6f23728d790723543408344ce89" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/annotated-types/0.7.0/annotated_types-0.7.0-py3-none-any.whl", hash = "sha256:1f02e8b43a8fbbc3f3e0d4f0f4bfc8131bcb4eebe8849b8e5c773f3a1c582a53" },
+]
+
+[[package]]
+name = "babel"
+version = "2.17.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/babel/2.17.0/babel-2.17.0.tar.gz", hash = "sha256:0c54cffb19f690cdcc52a3b50bcbf71e07a808d1c80d549f2459b9d2cf0afb9d" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/babel/2.17.0/babel-2.17.0-py3-none-any.whl", hash = "sha256:4d0b53093fdfb4b21c92b5213dba5a1b23885afa8383709427046b21c366e5f2" },
+]
+
+[[package]]
+name = "backrefs"
+version = "5.8"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/backrefs/5.8/backrefs-5.8.tar.gz", hash = "sha256:2cab642a205ce966af3dd4b38ee36009b31fa9502a35fd61d59ccc116e40a6bd" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/backrefs/5.8/backrefs-5.8-py310-none-any.whl", hash = "sha256:c67f6638a34a5b8730812f5101376f9d41dc38c43f1fdc35cb54700f6ed4465d" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/backrefs/5.8/backrefs-5.8-py311-none-any.whl", hash = "sha256:2e1c15e4af0e12e45c8701bd5da0902d326b2e200cafcd25e49d9f06d44bb61b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/backrefs/5.8/backrefs-5.8-py312-none-any.whl", hash = "sha256:bbef7169a33811080d67cdf1538c8289f76f0942ff971222a16034da88a73486" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/backrefs/5.8/backrefs-5.8-py313-none-any.whl", hash = "sha256:e3a63b073867dbefd0536425f43db618578528e3896fb77be7141328642a1585" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/backrefs/5.8/backrefs-5.8-py39-none-any.whl", hash = "sha256:a66851e4533fb5b371aa0628e1fee1af05135616b86140c9d787a2ffdf4b8fdc" },
+]
+
+[[package]]
+name = "black"
+version = "25.1.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "click" },
+    { name = "mypy-extensions" },
+    { name = "packaging" },
+    { name = "pathspec" },
+    { name = "platformdirs" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/black/25.1.0/black-25.1.0.tar.gz", hash = "sha256:33496d5cd1222ad73391352b4ae8da15253c5de89b93a80b3e2c8d9a19ec2666" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/black/25.1.0/black-25.1.0-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:a39337598244de4bae26475f77dda852ea00a93bd4c728e09eacd827ec929df0" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/black/25.1.0/black-25.1.0-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:96c1c7cd856bba8e20094e36e0f948718dc688dba4a9d78c3adde52b9e6c2299" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/black/25.1.0/black-25.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:bce2e264d59c91e52d8000d507eb20a9aca4a778731a08cfff7e5ac4a4bb7096" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/black/25.1.0/black-25.1.0-cp311-cp311-win_amd64.whl", hash = "sha256:172b1dbff09f86ce6f4eb8edf9dede08b1fce58ba194c87d7a4f1a5aa2f5b3c2" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/black/25.1.0/black-25.1.0-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:4b60580e829091e6f9238c848ea6750efed72140b91b048770b64e74fe04908b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/black/25.1.0/black-25.1.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:1e2978f6df243b155ef5fa7e558a43037c3079093ed5d10fd84c43900f2d8ecc" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/black/25.1.0/black-25.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:3b48735872ec535027d979e8dcb20bf4f70b5ac75a8ea99f127c106a7d7aba9f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/black/25.1.0/black-25.1.0-cp312-cp312-win_amd64.whl", hash = "sha256:ea0213189960bda9cf99be5b8c8ce66bb054af5e9e861249cd23471bd7b0b3ba" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/black/25.1.0/black-25.1.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:8f0b18a02996a836cc9c9c78e5babec10930862827b1b724ddfe98ccf2f2fe4f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/black/25.1.0/black-25.1.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:afebb7098bfbc70037a053b91ae8437c3857482d3a690fefc03e9ff7aa9a5fd3" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/black/25.1.0/black-25.1.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:030b9759066a4ee5e5aca28c3c77f9c64789cdd4de8ac1df642c40b708be6171" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/black/25.1.0/black-25.1.0-cp313-cp313-win_amd64.whl", hash = "sha256:a22f402b410566e2d1c950708c77ebf5ebd5d0d88a6a2e87c86d9fb48afa0d18" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/black/25.1.0/black-25.1.0-py3-none-any.whl", hash = "sha256:95e8176dae143ba9097f351d174fdaf0ccd29efb414b362ae3fd72bf0f710717" },
+]
+
+[[package]]
+name = "certifi"
+version = "2025.1.31"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/certifi/2025.1.31/certifi-2025.1.31.tar.gz", hash = "sha256:3d5da6925056f6f18f119200434a4780a94263f10d1c21d032a6f6b2baa20651" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/certifi/2025.1.31/certifi-2025.1.31-py3-none-any.whl", hash = "sha256:ca78db4565a652026a4db2bcdf68f2fb589ea80d0be70e03929ed730746b84fe" },
+]
+
+[[package]]
+name = "cfgv"
+version = "3.4.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/cfgv/3.4.0/cfgv-3.4.0.tar.gz", hash = "sha256:e52591d4c5f5dead8e0f673fb16db7949d2cfb3f7da4582893288f0ded8fe560" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/cfgv/3.4.0/cfgv-3.4.0-py2.py3-none-any.whl", hash = "sha256:b7265b1f29fd3316bfcd2b330d63d024f2bfd8bcb8b0272f8e19a504856c48f9" },
+]
+
+[[package]]
+name = "charset-normalizer"
+version = "3.4.1"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1.tar.gz", hash = "sha256:44251f18cd68a75b56585dd00dae26183e102cd5e0f9f1466e6df5da2ed64ea3" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:8bfa33f4f2672964266e940dd22a195989ba31669bd84629f05fab3ef4e2d125" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:28bf57629c75e810b6ae989f03c0828d64d6b26a5e205535585f96093e405ed1" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:f08ff5e948271dc7e18a35641d2f11a4cd8dfd5634f55228b691e62b37125eb3" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:234ac59ea147c59ee4da87a0c0f098e9c8d169f4dc2a159ef720f1a61bbe27cd" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:fd4ec41f914fa74ad1b8304bbc634b3de73d2a0889bd32076342a573e0779e00" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:eea6ee1db730b3483adf394ea72f808b6e18cf3cb6454b4d86e04fa8c4327a12" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-musllinux_1_2_aarch64.whl", hash = "sha256:c96836c97b1238e9c9e3fe90844c947d5afbf4f4c92762679acfe19927d81d77" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-musllinux_1_2_i686.whl", hash = "sha256:4d86f7aff21ee58f26dcf5ae81a9addbd914115cdebcbb2217e4f0ed8982e146" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-musllinux_1_2_ppc64le.whl", hash = "sha256:09b5e6733cbd160dcc09589227187e242a30a49ca5cefa5a7edd3f9d19ed53fd" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-musllinux_1_2_s390x.whl", hash = "sha256:5777ee0881f9499ed0f71cc82cf873d9a0ca8af166dfa0af8ec4e675b7df48e6" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:237bdbe6159cff53b4f24f397d43c6336c6b0b42affbe857970cefbb620911c8" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-win32.whl", hash = "sha256:8417cb1f36cc0bc7eaba8ccb0e04d55f0ee52df06df3ad55259b9a323555fc8b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp311-cp311-win_amd64.whl", hash = "sha256:d7f50a1f8c450f3925cb367d011448c39239bb3eb4117c36a6d354794de4ce76" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:73d94b58ec7fecbc7366247d3b0b10a21681004153238750bb67bd9012414545" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:dad3e487649f498dd991eeb901125411559b22e8d7ab25d3aeb1af367df5efd7" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:c30197aa96e8eed02200a83fba2657b4c3acd0f0aa4bdc9f6c1af8e8962e0757" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:2369eea1ee4a7610a860d88f268eb39b95cb588acd7235e02fd5a5601773d4fa" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:bc2722592d8998c870fa4e290c2eec2c1569b87fe58618e67d38b4665dfa680d" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:ffc9202a29ab3920fa812879e95a9e78b2465fd10be7fcbd042899695d75e616" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:804a4d582ba6e5b747c625bf1255e6b1507465494a40a2130978bda7b932c90b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:0f55e69f030f7163dffe9fd0752b32f070566451afe180f99dbeeb81f511ad8d" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-musllinux_1_2_ppc64le.whl", hash = "sha256:c4c3e6da02df6fa1410a7680bd3f63d4f710232d3139089536310d027950696a" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-musllinux_1_2_s390x.whl", hash = "sha256:5df196eb874dae23dcfb968c83d4f8fdccb333330fe1fc278ac5ceeb101003a9" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:e358e64305fe12299a08e08978f51fc21fac060dcfcddd95453eabe5b93ed0e1" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-win32.whl", hash = "sha256:9b23ca7ef998bc739bf6ffc077c2116917eabcc901f88da1b9856b210ef63f35" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-win_amd64.whl", hash = "sha256:6ff8a4a60c227ad87030d76e99cd1698345d4491638dfa6673027c48b3cd395f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:aabfa34badd18f1da5ec1bc2715cadc8dca465868a4e73a0173466b688f29dda" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:22e14b5d70560b8dd51ec22863f370d1e595ac3d024cb8ad7d308b4cd95f8313" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:8436c508b408b82d87dc5f62496973a1805cd46727c34440b0d29d8a2f50a6c9" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:2d074908e1aecee37a7635990b2c6d504cd4766c7bc9fc86d63f9c09af3fa11b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:955f8851919303c92343d2f66165294848d57e9bba6cf6e3625485a70a038d11" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:44ecbf16649486d4aebafeaa7ec4c9fed8b88101f4dd612dcaf65d5e815f837f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:0924e81d3d5e70f8126529951dac65c1010cdf117bb75eb02dd12339b57749dd" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:2967f74ad52c3b98de4c3b32e1a44e32975e008a9cd2a8cc8966d6a5218c5cb2" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-musllinux_1_2_ppc64le.whl", hash = "sha256:c75cb2a3e389853835e84a2d8fb2b81a10645b503eca9bcb98df6b5a43eb8886" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-musllinux_1_2_s390x.whl", hash = "sha256:09b26ae6b1abf0d27570633b2b078a2a20419c99d66fb2823173d73f188ce601" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:fa88b843d6e211393a37219e6a1c1df99d35e8fd90446f1118f4216e307e48cd" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-win32.whl", hash = "sha256:eb8178fe3dba6450a3e024e95ac49ed3400e506fd4e9e5c32d30adda88cbd407" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-win_amd64.whl", hash = "sha256:b1ac5992a838106edb89654e0aebfc24f5848ae2547d22c2c3f66454daa11971" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/charset-normalizer/3.4.1/charset_normalizer-3.4.1-py3-none-any.whl", hash = "sha256:d98b1668f06378c6dbefec3b92299716b931cd4e6061f3c875a71ced1780ab85" },
+]
+
+[[package]]
+name = "click"
+version = "8.1.8"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/click/8.1.8/click-8.1.8.tar.gz", hash = "sha256:ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/click/8.1.8/click-8.1.8-py3-none-any.whl", hash = "sha256:63c132bbbed01578a06712a2d1f497bb62d9c1c0d329b7903a866228027263b2" },
+]
+
+[[package]]
+name = "colorama"
+version = "0.4.6"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/colorama/0.4.6/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/colorama/0.4.6/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6" },
+]
+
+[[package]]
+name = "distlib"
+version = "0.3.9"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/distlib/0.3.9/distlib-0.3.9.tar.gz", hash = "sha256:a60f20dea646b8a33f3e7772f74dc0b2d0772d2837ee1342a00645c81edf9403" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/distlib/0.3.9/distlib-0.3.9-py2.py3-none-any.whl", hash = "sha256:47f8c22fd27c27e25a65601af709b38e4f0a45ea4fc2e710f65755fa8caaaf87" },
+]
+
+[[package]]
+name = "filelock"
+version = "3.18.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/filelock/3.18.0/filelock-3.18.0.tar.gz", hash = "sha256:adbc88eabb99d2fec8c9c1b229b171f18afa655400173ddc653d5d01501fb9f2" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/filelock/3.18.0/filelock-3.18.0-py3-none-any.whl", hash = "sha256:c401f4f8377c4464e6db25fff06205fd89bdd83b65eb0488ed1b160f780e21de" },
+]
+
+[[package]]
+name = "ghp-import"
+version = "2.1.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "python-dateutil" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ghp-import/2.1.0/ghp-import-2.1.0.tar.gz", hash = "sha256:9c535c4c61193c2df8871222567d7fd7e5014d835f97dc7b7439069e2413d343" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ghp-import/2.1.0/ghp_import-2.1.0-py3-none-any.whl", hash = "sha256:8337dd7b50877f163d4c0289bc1f1c7f127550241988d568c1db512c4324a619" },
+]
+
+[[package]]
+name = "griffe"
+version = "1.6.3"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "colorama" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/griffe/1.6.3/griffe-1.6.3.tar.gz", hash = "sha256:568cc9e50de04f6c76234bf46dd7f3a264ea3cbb1380fb54818e81e3675a83cf" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/griffe/1.6.3/griffe-1.6.3-py3-none-any.whl", hash = "sha256:7a0c559f10d8a9016f4d0b4ceaacc087e31e2370cb1aa9a59006a30d5a279fb3" },
+]
+
+[[package]]
+name = "grpcio"
+version = "1.71.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0.tar.gz", hash = "sha256:2b85f7820475ad3edec209d3d89a7909ada16caab05d3f2e08a7e8ae3200a55c" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp311-cp311-linux_armv7l.whl", hash = "sha256:d6aa986318c36508dc1d5001a3ff169a15b99b9f96ef5e98e13522c506b37eef" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp311-cp311-macosx_10_14_universal2.whl", hash = "sha256:d2c170247315f2d7e5798a22358e982ad6eeb68fa20cf7a820bb74c11f0736e7" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp311-cp311-manylinux_2_17_aarch64.whl", hash = "sha256:e6f83a583ed0a5b08c5bc7a3fe860bb3c2eac1f03f1f63e0bc2091325605d2b7" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:4be74ddeeb92cc87190e0e376dbc8fc7736dbb6d3d454f2fa1f5be1dee26b9d7" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4dd0dfbe4d5eb1fcfec9490ca13f82b089a309dc3678e2edabc144051270a66e" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp311-cp311-musllinux_1_1_aarch64.whl", hash = "sha256:a2242d6950dc892afdf9e951ed7ff89473aaf744b7d5727ad56bdaace363722b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp311-cp311-musllinux_1_1_i686.whl", hash = "sha256:0fa05ee31a20456b13ae49ad2e5d585265f71dd19fbd9ef983c28f926d45d0a7" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:3d081e859fb1ebe176de33fc3adb26c7d46b8812f906042705346b314bde32c3" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp311-cp311-win32.whl", hash = "sha256:d6de81c9c00c8a23047136b11794b3584cdc1460ed7cbc10eada50614baa1444" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp311-cp311-win_amd64.whl", hash = "sha256:24e867651fc67717b6f896d5f0cac0ec863a8b5fb7d6441c2ab428f52c651c6b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp312-cp312-linux_armv7l.whl", hash = "sha256:0ff35c8d807c1c7531d3002be03221ff9ae15712b53ab46e2a0b4bb271f38537" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp312-cp312-macosx_10_14_universal2.whl", hash = "sha256:b78a99cd1ece4be92ab7c07765a0b038194ded2e0a26fd654591ee136088d8d7" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp312-cp312-manylinux_2_17_aarch64.whl", hash = "sha256:dc1a1231ed23caac1de9f943d031f1bc38d0f69d2a3b243ea0d664fc1fbd7fec" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp312-cp312-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:e6beeea5566092c5e3c4896c6d1d307fb46b1d4bdf3e70c8340b190a69198594" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:d5170929109450a2c031cfe87d6716f2fae39695ad5335d9106ae88cc32dc84c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:5b08d03ace7aca7b2fadd4baf291139b4a5f058805a8327bfe9aece7253b6d67" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp312-cp312-musllinux_1_1_i686.whl", hash = "sha256:f903017db76bf9cc2b2d8bdd37bf04b505bbccad6be8a81e1542206875d0e9db" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:469f42a0b410883185eab4689060a20488a1a0a00f8bbb3cbc1061197b4c5a79" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp312-cp312-win32.whl", hash = "sha256:ad9f30838550695b5eb302add33f21f7301b882937460dd24f24b3cc5a95067a" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp312-cp312-win_amd64.whl", hash = "sha256:652350609332de6dac4ece254e5d7e1ff834e203d6afb769601f286886f6f3a8" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp313-cp313-linux_armv7l.whl", hash = "sha256:cebc1b34ba40a312ab480ccdb396ff3c529377a2fce72c45a741f7215bfe8379" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp313-cp313-macosx_10_14_universal2.whl", hash = "sha256:85da336e3649a3d2171e82f696b5cad2c6231fdd5bad52616476235681bee5b3" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp313-cp313-manylinux_2_17_aarch64.whl", hash = "sha256:f9a412f55bb6e8f3bb000e020dbc1e709627dcb3a56f6431fa7076b4c1aab0db" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp313-cp313-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:47be9584729534660416f6d2a3108aaeac1122f6b5bdbf9fd823e11fe6fbaa29" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:7c9c80ac6091c916db81131d50926a93ab162a7e97e4428ffc186b6e80d6dda4" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp313-cp313-musllinux_1_1_aarch64.whl", hash = "sha256:789d5e2a3a15419374b7b45cd680b1e83bbc1e52b9086e49308e2c0b5bbae6e3" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp313-cp313-musllinux_1_1_i686.whl", hash = "sha256:1be857615e26a86d7363e8a163fade914595c81fec962b3d514a4b1e8760467b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp313-cp313-musllinux_1_1_x86_64.whl", hash = "sha256:a76d39b5fafd79ed604c4be0a869ec3581a172a707e2a8d7a4858cb05a5a7637" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp313-cp313-win32.whl", hash = "sha256:74258dce215cb1995083daa17b379a1a5a87d275387b7ffe137f1d5131e2cfbb" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio/1.71.0/grpcio-1.71.0-cp313-cp313-win_amd64.whl", hash = "sha256:22c3bc8d488c039a199f7a003a38cb7635db6656fa96437a8accde8322ce2366" },
+]
+
+[[package]]
+name = "grpcio-tools"
+version = "1.71.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "grpcio" },
+    { name = "protobuf" },
+    { name = "setuptools" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0.tar.gz", hash = "sha256:38dba8e0d5e0fb23a034e09644fdc6ed862be2371887eee54901999e8f6792a8" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp311-cp311-linux_armv7l.whl", hash = "sha256:1f19b16b49afa5d21473f49c0966dd430c88d089cd52ac02404d8cef67134efb" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp311-cp311-macosx_10_14_universal2.whl", hash = "sha256:459c8f5e00e390aecd5b89de67deb3ec7188a274bc6cb50e43cef35ab3a3f45d" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp311-cp311-manylinux_2_17_aarch64.whl", hash = "sha256:edab7e6518de01196be37f96cb1e138c3819986bf5e2a6c9e1519b4d716b2f5a" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:8b93b9f6adc7491d4c10144c0643409db298e5e63c997106a804f6f0248dbaf4" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6ae5f2efa9e644c10bf1021600bfc099dfbd8e02b184d2d25dc31fcd6c2bc59e" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp311-cp311-musllinux_1_1_aarch64.whl", hash = "sha256:65aa082f4435571d65d5ce07fc444f23c3eff4f3e34abef599ef8c9e1f6f360f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp311-cp311-musllinux_1_1_i686.whl", hash = "sha256:1331e726e08b7bdcbf2075fcf4b47dff07842b04845e6e220a08a4663e232d7f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:6693a7d3ba138b0e693b3d1f687cdd9db9e68976c3fa2b951c17a072fea8b583" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp311-cp311-win32.whl", hash = "sha256:6d11ed3ff7b6023b5c72a8654975324bb98c1092426ba5b481af406ff559df00" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp311-cp311-win_amd64.whl", hash = "sha256:072b2a5805ac97e4623b3aa8f7818275f3fb087f4aa131b0fce00471065f6eaa" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp312-cp312-linux_armv7l.whl", hash = "sha256:61c0409d5bdac57a7bd0ce0ab01c1c916728fe4c8a03d77a25135ad481eb505c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp312-cp312-macosx_10_14_universal2.whl", hash = "sha256:28784f39921d061d2164a9dcda5164a69d07bf29f91f0ea50b505958292312c9" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp312-cp312-manylinux_2_17_aarch64.whl", hash = "sha256:192808cf553cedca73f0479cc61d5684ad61f24db7a5f3c4dfe1500342425866" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp312-cp312-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:989ee9da61098230d3d4c8f8f8e27c2de796f1ff21b1c90110e636d9acd9432b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:541a756276c8a55dec991f6c0106ae20c8c8f5ce8d0bdbfcb01e2338d1a8192b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:870c0097700d13c403e5517cb7750ab5b4a791ce3e71791c411a38c5468b64bd" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp312-cp312-musllinux_1_1_i686.whl", hash = "sha256:abd57f615e88bf93c3c6fd31f923106e3beb12f8cd2df95b0d256fa07a7a0a57" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:753270e2d06d37e6d7af8967d1d059ec635ad215882041a36294f4e2fd502b2e" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp312-cp312-win32.whl", hash = "sha256:0e647794bd7138b8c215e86277a9711a95cf6a03ff6f9e555d54fdf7378b9f9d" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp312-cp312-win_amd64.whl", hash = "sha256:48debc879570972d28bfe98e4970eff25bb26da3f383e0e49829b2d2cd35ad87" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp313-cp313-linux_armv7l.whl", hash = "sha256:9a78d07d6c301a25ef5ede962920a522556a1dfee1ccc05795994ceb867f766c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp313-cp313-macosx_10_14_universal2.whl", hash = "sha256:580ac88141c9815557e63c9c04f5b1cdb19b4db8d0cb792b573354bde1ee8b12" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp313-cp313-manylinux_2_17_aarch64.whl", hash = "sha256:f7c678e68ece0ae908ecae1c4314a0c2c7f83e26e281738b9609860cc2c82d96" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp313-cp313-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:56ecd6cc89b5e5eed1de5eb9cafce86c9c9043ee3840888cc464d16200290b53" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e52a041afc20ab2431d756b6295d727bd7adee813b21b06a3483f4a7a15ea15f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp313-cp313-musllinux_1_1_aarch64.whl", hash = "sha256:2a1712f12102b60c8d92779b89d0504e0d6f3a59f2b933e5622b8583f5c02992" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp313-cp313-musllinux_1_1_i686.whl", hash = "sha256:41878cb7a75477e62fdd45e7e9155b3af1b7a5332844021e2511deaf99ac9e6c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp313-cp313-musllinux_1_1_x86_64.whl", hash = "sha256:682e958b476049ccc14c71bedf3f979bced01f6e0c04852efc5887841a32ad6b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp313-cp313-win32.whl", hash = "sha256:0ccfb837152b7b858b9f26bb110b3ae8c46675d56130f6c2f03605c4f129be13" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/grpcio-tools/1.71.0/grpcio_tools-1.71.0-cp313-cp313-win_amd64.whl", hash = "sha256:ffff9bc5eacb34dd26b487194f7d44a3e64e752fc2cf049d798021bf25053b87" },
+]
+
+[[package]]
+name = "identify"
+version = "2.6.9"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/identify/2.6.9/identify-2.6.9.tar.gz", hash = "sha256:d40dfe3142a1421d8518e3d3985ef5ac42890683e32306ad614a29490abeb6bf" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/identify/2.6.9/identify-2.6.9-py2.py3-none-any.whl", hash = "sha256:c98b4322da415a8e5a70ff6e51fbc2d2932c015532d77e9f8537b4ba7813b150" },
+]
+
+[[package]]
+name = "idna"
+version = "3.10"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/idna/3.10/idna-3.10.tar.gz", hash = "sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/idna/3.10/idna-3.10-py3-none-any.whl", hash = "sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3" },
+]
+
+[[package]]
+name = "iniconfig"
+version = "2.1.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/iniconfig/2.1.0/iniconfig-2.1.0.tar.gz", hash = "sha256:3abbd2e30b36733fee78f9c7f7308f2d0050e88f0087fd25c2645f63c773e1c7" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/iniconfig/2.1.0/iniconfig-2.1.0-py3-none-any.whl", hash = "sha256:9deba5723312380e77435581c6bf4935c94cbfab9b1ed33ef8d238ea168eb760" },
+]
+
+[[package]]
+name = "jinja2"
+version = "3.1.6"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "markupsafe" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/jinja2/3.1.6/jinja2-3.1.6.tar.gz", hash = "sha256:0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/jinja2/3.1.6/jinja2-3.1.6-py3-none-any.whl", hash = "sha256:85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67" },
+]
+
+[[package]]
+name = "markdown"
+version = "3.7"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markdown/3.7/markdown-3.7.tar.gz", hash = "sha256:2ae2471477cfd02dbbf038d5d9bc226d40def84b4fe2986e49b59b6b472bbed2" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markdown/3.7/Markdown-3.7-py3-none-any.whl", hash = "sha256:7eb6df5690b81a1d7942992c97fad2938e956e79df20cbc6186e9c3a77b1c803" },
+]
+
+[[package]]
+name = "markupsafe"
+version = "3.0.2"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/markupsafe-3.0.2.tar.gz", hash = "sha256:ee55d3edf80167e48ea11a923c7386f4669df67d7994554387f84e7d8b0a2bf0" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:9025b4018f3a1314059769c7bf15441064b2207cb3f065e6ea1e7359cb46db9d" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:93335ca3812df2f366e80509ae119189886b0f3c2b81325d39efdb84a1e2ae93" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:2cb8438c3cbb25e220c2ab33bb226559e7afb3baec11c4f218ffa7308603c832" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a123e330ef0853c6e822384873bef7507557d8e4a082961e1defa947aa59ba84" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:1e084f686b92e5b83186b07e8a17fc09e38fff551f3602b249881fec658d3eca" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp311-cp311-musllinux_1_2_aarch64.whl", hash = "sha256:d8213e09c917a951de9d09ecee036d5c7d36cb6cb7dbaece4c71a60d79fb9798" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp311-cp311-musllinux_1_2_i686.whl", hash = "sha256:5b02fb34468b6aaa40dfc198d813a641e3a63b98c2b05a16b9f80b7ec314185e" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:0bff5e0ae4ef2e1ae4fdf2dfd5b76c75e5c2fa4132d05fc1b0dabcd20c7e28c4" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp311-cp311-win32.whl", hash = "sha256:6c89876f41da747c8d3677a2b540fb32ef5715f97b66eeb0c6b66f5e3ef6f59d" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp311-cp311-win_amd64.whl", hash = "sha256:70a87b411535ccad5ef2f1df5136506a10775d267e197e4cf531ced10537bd6b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:9778bd8ab0a994ebf6f84c2b949e65736d5575320a17ae8984a77fab08db94cf" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:846ade7b71e3536c4e56b386c2a47adf5741d2d8b94ec9dc3e92e5e1ee1e2225" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1c99d261bd2d5f6b59325c92c73df481e05e57f19837bdca8413b9eac4bd8028" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e17c96c14e19278594aa4841ec148115f9c7615a47382ecb6b82bd8fea3ab0c8" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:88416bd1e65dcea10bc7569faacb2c20ce071dd1f87539ca2ab364bf6231393c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:2181e67807fc2fa785d0592dc2d6206c019b9502410671cc905d132a92866557" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:52305740fe773d09cffb16f8ed0427942901f00adedac82ec8b67752f58a1b22" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:ad10d3ded218f1039f11a75f8091880239651b52e9bb592ca27de44eed242a48" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-win32.whl", hash = "sha256:0f4ca02bea9a23221c0182836703cbf8930c5e9454bacce27e767509fa286a30" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-win_amd64.whl", hash = "sha256:8e06879fc22a25ca47312fbe7c8264eb0b662f6db27cb2d3bbbc74b1df4b9b87" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:ba9527cdd4c926ed0760bc301f6728ef34d841f405abf9d4f959c478421e4efd" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:f8b3d067f2e40fe93e1ccdd6b2e1d16c43140e76f02fb1319a05cf2b79d99430" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:569511d3b58c8791ab4c2e1285575265991e6d8f8700c7be0e88f86cb0672094" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:15ab75ef81add55874e7ab7055e9c397312385bd9ced94920f2802310c930396" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:f3818cb119498c0678015754eba762e0d61e5b52d34c8b13d770f0719f7b1d79" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:cdb82a876c47801bb54a690c5ae105a46b392ac6099881cdfb9f6e95e4014c6a" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:cabc348d87e913db6ab4aa100f01b08f481097838bdddf7c7a84b7575b7309ca" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:444dcda765c8a838eaae23112db52f1efaf750daddb2d9ca300bcae1039adc5c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-win32.whl", hash = "sha256:bcf3e58998965654fdaff38e58584d8937aa3096ab5354d493c77d1fdd66d7a1" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-win_amd64.whl", hash = "sha256:e6a2a455bd412959b57a172ce6328d2dd1f01cb2135efda2e4576e8a23fa3b0f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-macosx_10_13_universal2.whl", hash = "sha256:b5a6b3ada725cea8a5e634536b1b01c30bcdcd7f9c6fff4151548d5bf6b3a36c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:a904af0a6162c73e3edcb969eeeb53a63ceeb5d8cf642fade7d39e7963a22ddb" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:4aa4e5faecf353ed117801a068ebab7b7e09ffb6e1d5e412dc852e0da018126c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c0ef13eaeee5b615fb07c9a7dadb38eac06a0608b41570d8ade51c56539e509d" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:d16a81a06776313e817c951135cf7340a3e91e8c1ff2fac444cfd75fffa04afe" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:6381026f158fdb7c72a168278597a5e3a5222e83ea18f543112b2662a9b699c5" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-musllinux_1_2_i686.whl", hash = "sha256:3d79d162e7be8f996986c064d1c7c817f6df3a77fe3d6859f6f9e7be4b8c213a" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:131a3c7689c85f5ad20f9f6fb1b866f402c445b220c19fe4308c0b147ccd2ad9" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-win32.whl", hash = "sha256:ba8062ed2cf21c07a9e295d5b8a2a5ce678b913b45fdf68c32d95d6c1291e0b6" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-win_amd64.whl", hash = "sha256:e444a31f8db13eb18ada366ab3cf45fd4b31e4db1236a4448f68778c1d1a5a2f" },
+]
+
+[[package]]
+name = "mergedeep"
+version = "1.3.4"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mergedeep/1.3.4/mergedeep-1.3.4.tar.gz", hash = "sha256:0096d52e9dad9939c3d975a774666af186eda617e6ca84df4c94dec30004f2a8" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mergedeep/1.3.4/mergedeep-1.3.4-py3-none-any.whl", hash = "sha256:70775750742b25c0d8f36c55aed03d24c3384d17c951b3175d898bd778ef0307" },
+]
+
+[[package]]
+name = "mkdocs"
+version = "1.6.1"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "click" },
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+    { name = "ghp-import" },
+    { name = "jinja2" },
+    { name = "markdown" },
+    { name = "markupsafe" },
+    { name = "mergedeep" },
+    { name = "mkdocs-get-deps" },
+    { name = "packaging" },
+    { name = "pathspec" },
+    { name = "pyyaml" },
+    { name = "pyyaml-env-tag" },
+    { name = "watchdog" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocs/1.6.1/mkdocs-1.6.1.tar.gz", hash = "sha256:7b432f01d928c084353ab39c57282f29f92136665bdd6abf7c1ec8d822ef86f2" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocs/1.6.1/mkdocs-1.6.1-py3-none-any.whl", hash = "sha256:db91759624d1647f3f34aa0c3f327dd2601beae39a366d6e064c03468d35c20e" },
+]
+
+[[package]]
+name = "mkdocs-autorefs"
+version = "1.4.1"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "markdown" },
+    { name = "markupsafe" },
+    { name = "mkdocs" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocs-autorefs/1.4.1/mkdocs_autorefs-1.4.1.tar.gz", hash = "sha256:4b5b6235a4becb2b10425c2fa191737e415b37aa3418919db33e5d774c9db079" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocs-autorefs/1.4.1/mkdocs_autorefs-1.4.1-py3-none-any.whl", hash = "sha256:9793c5ac06a6ebbe52ec0f8439256e66187badf4b5334b5fde0b128ec134df4f" },
+]
+
+[[package]]
+name = "mkdocs-get-deps"
+version = "0.2.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "mergedeep" },
+    { name = "platformdirs" },
+    { name = "pyyaml" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocs-get-deps/0.2.0/mkdocs_get_deps-0.2.0.tar.gz", hash = "sha256:162b3d129c7fad9b19abfdcb9c1458a651628e4b1dea628ac68790fb3061c60c" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocs-get-deps/0.2.0/mkdocs_get_deps-0.2.0-py3-none-any.whl", hash = "sha256:2bf11d0b133e77a0dd036abeeb06dec8775e46efa526dc70667d8863eefc6134" },
+]
+
+[[package]]
+name = "mkdocs-material"
+version = "9.6.9"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "babel" },
+    { name = "backrefs" },
+    { name = "colorama" },
+    { name = "jinja2" },
+    { name = "markdown" },
+    { name = "mkdocs" },
+    { name = "mkdocs-material-extensions" },
+    { name = "paginate" },
+    { name = "pygments" },
+    { name = "pymdown-extensions" },
+    { name = "requests" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocs-material/9.6.9/mkdocs_material-9.6.9.tar.gz", hash = "sha256:a4872139715a1f27b2aa3f3dc31a9794b7bbf36333c0ba4607cf04786c94f89c" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocs-material/9.6.9/mkdocs_material-9.6.9-py3-none-any.whl", hash = "sha256:6e61b7fb623ce2aa4622056592b155a9eea56ff3487d0835075360be45a4c8d1" },
+]
+
+[[package]]
+name = "mkdocs-material-extensions"
+version = "1.3.1"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocs-material-extensions/1.3.1/mkdocs_material_extensions-1.3.1.tar.gz", hash = "sha256:10c9511cea88f568257f960358a467d12b970e1f7b2c0e5fb2bb48cab1928443" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocs-material-extensions/1.3.1/mkdocs_material_extensions-1.3.1-py3-none-any.whl", hash = "sha256:adff8b62700b25cb77b53358dad940f3ef973dd6db797907c49e3c2ef3ab4e31" },
+]
+
+[[package]]
+name = "mkdocs-redirects"
+version = "1.2.2"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "mkdocs" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocs-redirects/1.2.2/mkdocs_redirects-1.2.2.tar.gz", hash = "sha256:3094981b42ffab29313c2c1b8ac3969861109f58b2dd58c45fc81cd44bfa0095" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocs-redirects/1.2.2/mkdocs_redirects-1.2.2-py3-none-any.whl", hash = "sha256:7dbfa5647b79a3589da4401403d69494bd1f4ad03b9c15136720367e1f340ed5" },
+]
+
+[[package]]
+name = "mkdocstrings"
+version = "0.29.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "jinja2" },
+    { name = "markdown" },
+    { name = "markupsafe" },
+    { name = "mkdocs" },
+    { name = "mkdocs-autorefs" },
+    { name = "pymdown-extensions" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocstrings/0.29.0/mkdocstrings-0.29.0.tar.gz", hash = "sha256:3657be1384543ce0ee82112c3e521bbf48e41303aa0c229b9ffcccba057d922e" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocstrings/0.29.0/mkdocstrings-0.29.0-py3-none-any.whl", hash = "sha256:8ea98358d2006f60befa940fdebbbc88a26b37ecbcded10be726ba359284f73d" },
+]
+
+[[package]]
+name = "mkdocstrings-python"
+version = "1.16.8"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "griffe" },
+    { name = "mkdocs-autorefs" },
+    { name = "mkdocstrings" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocstrings-python/1.16.8/mkdocstrings_python-1.16.8.tar.gz", hash = "sha256:9453ccae69be103810c1cf6435ce71c8f714ae37fef4d87d16aa92a7c800fe1d" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mkdocstrings-python/1.16.8/mkdocstrings_python-1.16.8-py3-none-any.whl", hash = "sha256:211b7aaf776cd45578ecb531e5ad0d3a35a8be9101a6bfa10de38a69af9d8fd8" },
+]
+
+[[package]]
+name = "mypy-extensions"
+version = "1.0.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mypy-extensions/1.0.0/mypy_extensions-1.0.0.tar.gz", hash = "sha256:75dbf8955dc00442a438fc4d0666508a9a97b6bd41aa2f0ffe9d2f2725af0782" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/mypy-extensions/1.0.0/mypy_extensions-1.0.0-py3-none-any.whl", hash = "sha256:4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d" },
+]
+
+[[package]]
+name = "nodeenv"
+version = "1.9.1"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/nodeenv/1.9.1/nodeenv-1.9.1.tar.gz", hash = "sha256:6ec12890a2dab7946721edbfbcd91f3319c6ccc9aec47be7c7e6b7011ee6645f" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/nodeenv/1.9.1/nodeenv-1.9.1-py2.py3-none-any.whl", hash = "sha256:ba11c9782d29c27c70ffbdda2d7415098754709be8a7056d79a737cd901155c9" },
+]
+
+[[package]]
+name = "numpy"
+version = "2.2.4"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4.tar.gz", hash = "sha256:9ba03692a45d3eef66559efe1d1096c4b9b75c0986b5dff5530c378fb8331d4f" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:e9e0a277bb2eb5d8a7407e14688b85fd8ad628ee4e0c7930415687b6564207a4" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:9eeea959168ea555e556b8188da5fa7831e21d91ce031e95ce23747b7609f8a4" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp311-cp311-macosx_14_0_arm64.whl", hash = "sha256:bd3ad3b0a40e713fc68f99ecfd07124195333f1e689387c180813f0e94309d6f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp311-cp311-macosx_14_0_x86_64.whl", hash = "sha256:cf28633d64294969c019c6df4ff37f5698e8326db68cc2b66576a51fad634880" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:2fa8fa7697ad1646b5c93de1719965844e004fcad23c91228aca1cf0800044a1" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f4162988a360a29af158aeb4a2f4f09ffed6a969c9776f8f3bdee9b06a8ab7e5" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp311-cp311-musllinux_1_2_aarch64.whl", hash = "sha256:892c10d6a73e0f14935c31229e03325a7b3093fafd6ce0af704be7f894d95687" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:db1f1c22173ac1c58db249ae48aa7ead29f534b9a948bc56828337aa84a32ed6" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp311-cp311-win32.whl", hash = "sha256:ea2bb7e2ae9e37d96835b3576a4fa4b3a97592fbea8ef7c3587078b0068b8f09" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp311-cp311-win_amd64.whl", hash = "sha256:f7de08cbe5551911886d1ab60de58448c6df0f67d9feb7d1fb21e9875ef95e91" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:a7b9084668aa0f64e64bd00d27ba5146ef1c3a8835f3bd912e7a9e01326804c4" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:dbe512c511956b893d2dacd007d955a3f03d555ae05cfa3ff1c1ff6df8851854" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:bb649f8b207ab07caebba230d851b579a3c8711a851d29efe15008e31bb4de24" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp312-cp312-macosx_14_0_x86_64.whl", hash = "sha256:f34dc300df798742b3d06515aa2a0aee20941c13579d7a2f2e10af01ae4901ee" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c3f7ac96b16955634e223b579a3e5798df59007ca43e8d451a0e6a50f6bfdfba" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4f92084defa704deadd4e0a5ab1dc52d8ac9e8a8ef617f3fbb853e79b0ea3592" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:7a4e84a6283b36632e2a5b56e121961f6542ab886bc9e12f8f9818b3c266bfbb" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:11c43995255eb4127115956495f43e9343736edb7fcdb0d973defd9de14cd84f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp312-cp312-win32.whl", hash = "sha256:65ef3468b53269eb5fdb3a5c09508c032b793da03251d5f8722b1194f1790c00" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp312-cp312-win_amd64.whl", hash = "sha256:2aad3c17ed2ff455b8eaafe06bcdae0062a1db77cb99f4b9cbb5f4ecb13c5146" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:1cf4e5c6a278d620dee9ddeb487dc6a860f9b199eadeecc567f777daace1e9e7" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:1974afec0b479e50438fc3648974268f972e2d908ddb6d7fb634598cdb8260a0" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313-macosx_14_0_arm64.whl", hash = "sha256:79bd5f0a02aa16808fcbc79a9a376a147cc1045f7dfe44c6e7d53fa8b8a79392" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313-macosx_14_0_x86_64.whl", hash = "sha256:3387dd7232804b341165cedcb90694565a6015433ee076c6754775e85d86f1fc" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:6f527d8fdb0286fd2fd97a2a96c6be17ba4232da346931d967a0630050dfd298" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:bce43e386c16898b91e162e5baaad90c4b06f9dcbe36282490032cec98dc8ae7" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:31504f970f563d99f71a3512d0c01a645b692b12a63630d6aafa0939e52361e6" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:81413336ef121a6ba746892fad881a83351ee3e1e4011f52e97fba79233611fd" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313-win32.whl", hash = "sha256:f486038e44caa08dbd97275a9a35a283a8f1d2f0ee60ac260a1790e76660833c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313-win_amd64.whl", hash = "sha256:207a2b8441cc8b6a2a78c9ddc64d00d20c303d79fba08c577752f080c4007ee3" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313t-macosx_10_13_x86_64.whl", hash = "sha256:8120575cb4882318c791f839a4fd66161a6fa46f3f0a5e613071aae35b5dd8f8" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:a761ba0fa886a7bb33c6c8f6f20213735cb19642c580a931c625ee377ee8bd39" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313t-macosx_14_0_arm64.whl", hash = "sha256:ac0280f1ba4a4bfff363a99a6aceed4f8e123f8a9b234c89140f5e894e452ecd" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313t-macosx_14_0_x86_64.whl", hash = "sha256:879cf3a9a2b53a4672a168c21375166171bc3932b7e21f622201811c43cdd3b0" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f05d4198c1bacc9124018109c5fba2f3201dbe7ab6e92ff100494f236209c960" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e2f085ce2e813a50dfd0e01fbfc0c12bbe5d2063d99f8b29da30e544fb6483b8" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:92bda934a791c01d6d9d8e038363c50918ef7c40601552a58ac84c9613a665bc" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:ee4d528022f4c5ff67332469e10efe06a267e32f4067dc76bb7e2cddf3cd25ff" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313t-win32.whl", hash = "sha256:05c076d531e9998e7e694c36e8b349969c56eadd2cdcd07242958489d79a7286" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/numpy/2.2.4/numpy-2.2.4-cp313-cp313t-win_amd64.whl", hash = "sha256:188dcbca89834cc2e14eb2f106c96d6d46f200fe0200310fc29089657379c58d" },
+]
+
+[[package]]
+name = "packaging"
+version = "24.2"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/packaging/24.2/packaging-24.2.tar.gz", hash = "sha256:c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/packaging/24.2/packaging-24.2-py3-none-any.whl", hash = "sha256:09abb1bccd265c01f4a3aa3f7a7db064b36514d2cba19a2f694fe6150451a759" },
+]
+
+[[package]]
+name = "paginate"
+version = "0.5.7"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/paginate/0.5.7/paginate-0.5.7.tar.gz", hash = "sha256:22bd083ab41e1a8b4f3690544afb2c60c25e5c9a63a30fa2f483f6c60c8e5945" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/paginate/0.5.7/paginate-0.5.7-py2.py3-none-any.whl", hash = "sha256:b885e2af73abcf01d9559fd5216b57ef722f8c42affbb63942377668e35c7591" },
+]
+
+[[package]]
+name = "pathspec"
+version = "0.12.1"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pathspec/0.12.1/pathspec-0.12.1.tar.gz", hash = "sha256:a482d51503a1ab33b1c67a6c3813a26953dbdc71c31dacaef9a838c4e29f5712" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pathspec/0.12.1/pathspec-0.12.1-py3-none-any.whl", hash = "sha256:a0d503e138a4c123b27490a4f7beda6a01c6f288df0e4a8b79c7eb0dc7b4cc08" },
+]
+
+[[package]]
+name = "platformdirs"
+version = "4.3.7"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/platformdirs/4.3.7/platformdirs-4.3.7.tar.gz", hash = "sha256:eb437d586b6a0986388f0d6f74aa0cde27b48d0e3d66843640bfb6bdcdb6e351" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/platformdirs/4.3.7/platformdirs-4.3.7-py3-none-any.whl", hash = "sha256:a03875334331946f13c549dbd8f4bac7a13a50a895a0eb1e8c6a8ace80d40a94" },
+]
+
+[[package]]
+name = "pluggy"
+version = "1.5.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pluggy/1.5.0/pluggy-1.5.0.tar.gz", hash = "sha256:2cffa88e94fdc978c4c574f15f9e59b7f4201d439195c3715ca9e2486f1d0cf1" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pluggy/1.5.0/pluggy-1.5.0-py3-none-any.whl", hash = "sha256:44e1ad92c8ca002de6377e165f3e0f1be63266ab4d554740532335b9d75ea669" },
+]
+
+[[package]]
+name = "pre-commit"
+version = "4.2.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "cfgv" },
+    { name = "identify" },
+    { name = "nodeenv" },
+    { name = "pyyaml" },
+    { name = "virtualenv" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pre-commit/4.2.0/pre_commit-4.2.0.tar.gz", hash = "sha256:601283b9757afd87d40c4c4a9b2b5de9637a8ea02eaff7adc2d0fb4e04841146" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pre-commit/4.2.0/pre_commit-4.2.0-py2.py3-none-any.whl", hash = "sha256:a009ca7205f1eb497d10b845e52c838a98b6cdd2102a6c8e4540e94ee75c58bd" },
+]
+
+[[package]]
+name = "protobuf"
+version = "5.29.4"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/protobuf/5.29.4/protobuf-5.29.4.tar.gz", hash = "sha256:4f1dfcd7997b31ef8f53ec82781ff434a28bf71d9102ddde14d076adcfc78c99" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/protobuf/5.29.4/protobuf-5.29.4-cp310-abi3-win32.whl", hash = "sha256:13eb236f8eb9ec34e63fc8b1d6efd2777d062fa6aaa68268fb67cf77f6839ad7" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/protobuf/5.29.4/protobuf-5.29.4-cp310-abi3-win_amd64.whl", hash = "sha256:bcefcdf3976233f8a502d265eb65ea740c989bacc6c30a58290ed0e519eb4b8d" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/protobuf/5.29.4/protobuf-5.29.4-cp38-abi3-macosx_10_9_universal2.whl", hash = "sha256:307ecba1d852ec237e9ba668e087326a67564ef83e45a0189a772ede9e854dd0" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/protobuf/5.29.4/protobuf-5.29.4-cp38-abi3-manylinux2014_aarch64.whl", hash = "sha256:aec4962f9ea93c431d5714ed1be1c93f13e1a8618e70035ba2b0564d9e633f2e" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/protobuf/5.29.4/protobuf-5.29.4-cp38-abi3-manylinux2014_x86_64.whl", hash = "sha256:d7d3f7d1d5a66ed4942d4fefb12ac4b14a29028b209d4bfb25c68ae172059922" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/protobuf/5.29.4/protobuf-5.29.4-py3-none-any.whl", hash = "sha256:3fde11b505e1597f71b875ef2fc52062b6a9740e5f7c8997ce878b6009145862" },
+]
+
+[[package]]
+name = "pydantic"
+version = "2.11.3"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "annotated-types" },
+    { name = "pydantic-core" },
+    { name = "typing-extensions" },
+    { name = "typing-inspection" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic/2.11.3/pydantic-2.11.3.tar.gz", hash = "sha256:7471657138c16adad9322fe3070c0116dd6c3ad8d649300e3cbdfe91f4db4ec3" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic/2.11.3/pydantic-2.11.3-py3-none-any.whl", hash = "sha256:a082753436a07f9ba1289c6ffa01cd93db3548776088aa917cc43b63f68fa60f" },
+]
+
+[[package]]
+name = "pydantic-core"
+version = "2.33.1"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1.tar.gz", hash = "sha256:bcc9c6fdb0ced789245b02b7d6603e17d1563064ddcfc36f046b61c0c05dd9df" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-macosx_10_12_x86_64.whl", hash = "sha256:6e966fc3caaf9f1d96b349b0341c70c8d6573bf1bac7261f7b0ba88f96c56c24" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:bfd0adeee563d59c598ceabddf2c92eec77abcb3f4a391b19aa7366170bd9e30" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:91815221101ad3c6b507804178a7bb5cb7b2ead9ecd600041669c8d805ebd595" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:9fea9c1869bb4742d174a57b4700c6dadea951df8b06de40c2fedb4f02931c2e" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:1d20eb4861329bb2484c021b9d9a977566ab16d84000a57e28061151c62b349a" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:0fb935c5591573ae3201640579f30128ccc10739b45663f93c06796854405505" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c964fd24e6166420d18fb53996d8c9fd6eac9bf5ae3ec3d03015be4414ce497f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:681d65e9011f7392db5aa002b7423cc442d6a673c635668c227c6c8d0e5a4f77" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-musllinux_1_1_aarch64.whl", hash = "sha256:e100c52f7355a48413e2999bfb4e139d2977a904495441b374f3d4fb4a170961" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-musllinux_1_1_armv7l.whl", hash = "sha256:048831bd363490be79acdd3232f74a0e9951b11b2b4cc058aeb72b22fdc3abe1" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:bdc84017d28459c00db6f918a7272a5190bec3090058334e43a76afb279eac7c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-win32.whl", hash = "sha256:32cd11c5914d1179df70406427097c7dcde19fddf1418c787540f4b730289896" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-win_amd64.whl", hash = "sha256:2ea62419ba8c397e7da28a9170a16219d310d2cf4970dbc65c32faf20d828c83" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp311-cp311-win_arm64.whl", hash = "sha256:fc903512177361e868bc1f5b80ac8c8a6e05fcdd574a5fb5ffeac5a9982b9e89" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-macosx_10_12_x86_64.whl", hash = "sha256:1293d7febb995e9d3ec3ea09caf1a26214eec45b0f29f6074abb004723fc1de8" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:99b56acd433386c8f20be5c4000786d1e7ca0523c8eefc995d14d79c7a081498" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:35a5ec3fa8c2fe6c53e1b2ccc2454398f95d5393ab398478f53e1afbbeb4d939" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:b172f7b9d2f3abc0efd12e3386f7e48b576ef309544ac3a63e5e9cdd2e24585d" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:9097b9f17f91eea659b9ec58148c0747ec354a42f7389b9d50701610d86f812e" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:cc77ec5b7e2118b152b0d886c7514a4653bcb58c6b1d760134a9fab915f777b3" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:d5e3d15245b08fa4a84cefc6c9222e6f37c98111c8679fbd94aa145f9a0ae23d" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:ef99779001d7ac2e2461d8ab55d3373fe7315caefdbecd8ced75304ae5a6fc6b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:fc6bf8869e193855e8d91d91f6bf59699a5cdfaa47a404e278e776dd7f168b39" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-musllinux_1_1_armv7l.whl", hash = "sha256:b1caa0bc2741b043db7823843e1bde8aaa58a55a58fda06083b0569f8b45693a" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:ec259f62538e8bf364903a7d0d0239447059f9434b284f5536e8402b7dd198db" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-win32.whl", hash = "sha256:e14f369c98a7c15772b9da98987f58e2b509a93235582838bd0d1d8c08b68fda" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-win_amd64.whl", hash = "sha256:1c607801d85e2e123357b3893f82c97a42856192997b95b4d8325deb1cd0c5f4" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp312-cp312-win_arm64.whl", hash = "sha256:8d13f0276806ee722e70a1c93da19748594f19ac4299c7e41237fc791d1861ea" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313-macosx_10_12_x86_64.whl", hash = "sha256:70af6a21237b53d1fe7b9325b20e65cbf2f0a848cf77bed492b029139701e66a" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:282b3fe1bbbe5ae35224a0dbd05aed9ccabccd241e8e6b60370484234b456266" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:4b315e596282bbb5822d0c7ee9d255595bd7506d1cb20c2911a4da0b970187d3" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:1dfae24cf9921875ca0ca6a8ecb4bb2f13c855794ed0d468d6abbec6e6dcd44a" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:6dd8ecfde08d8bfadaea669e83c63939af76f4cf5538a72597016edfa3fad516" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:2f593494876eae852dc98c43c6f260f45abdbfeec9e4324e31a481d948214764" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:948b73114f47fd7016088e5186d13faf5e1b2fe83f5e320e371f035557fd264d" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:e11f3864eb516af21b01e25fac915a82e9ddad3bb0fb9e95a246067398b435a4" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313-musllinux_1_1_aarch64.whl", hash = "sha256:549150be302428b56fdad0c23c2741dcdb5572413776826c965619a25d9c6bde" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313-musllinux_1_1_armv7l.whl", hash = "sha256:495bc156026efafd9ef2d82372bd38afce78ddd82bf28ef5276c469e57c0c83e" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313-musllinux_1_1_x86_64.whl", hash = "sha256:ec79de2a8680b1a67a07490bddf9636d5c2fab609ba8c57597e855fa5fa4dacd" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313-win32.whl", hash = "sha256:ee12a7be1742f81b8a65b36c6921022301d466b82d80315d215c4c691724986f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313-win_amd64.whl", hash = "sha256:ede9b407e39949d2afc46385ce6bd6e11588660c26f80576c11c958e6647bc40" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313-win_arm64.whl", hash = "sha256:aa687a23d4b7871a00e03ca96a09cad0f28f443690d300500603bd0adba4b523" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:401d7b76e1000d0dd5538e6381d28febdcacb097c8d340dde7d7fc6e13e9f95d" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:7aeb055a42d734c0255c9e489ac67e75397d59c6fbe60d155851e9782f276a9c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-cp313-cp313t-win_amd64.whl", hash = "sha256:338ea9b73e6e109f15ab439e62cb3b78aa752c7fd9536794112e14bee02c8d18" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-pp311-pypy311_pp73-macosx_10_12_x86_64.whl", hash = "sha256:3a371dc00282c4b84246509a5ddc808e61b9864aa1eae9ecc92bb1268b82db4a" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-pp311-pypy311_pp73-macosx_11_0_arm64.whl", hash = "sha256:f59295ecc75a1788af8ba92f2e8c6eeaa5a94c22fc4d151e8d9638814f85c8fc" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-pp311-pypy311_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:08530b8ac922003033f399128505f513e30ca770527cc8bbacf75a84fcc2c74b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-pp311-pypy311_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:bae370459da6a5466978c0eacf90690cb57ec9d533f8e63e564ef3822bfa04fe" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-pp311-pypy311_pp73-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:e3de2777e3b9f4d603112f78006f4ae0acb936e95f06da6cb1a45fbad6bdb4b5" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-pp311-pypy311_pp73-musllinux_1_1_aarch64.whl", hash = "sha256:3a64e81e8cba118e108d7126362ea30e021291b7805d47e4896e52c791be2761" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-pp311-pypy311_pp73-musllinux_1_1_armv7l.whl", hash = "sha256:52928d8c1b6bda03cc6d811e8923dffc87a2d3c8b3bfd2ce16471c7147a24850" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-pp311-pypy311_pp73-musllinux_1_1_x86_64.whl", hash = "sha256:1b30d92c9412beb5ac6b10a3eb7ef92ccb14e3f2a8d7732e2d739f58b3aa7544" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pydantic-core/2.33.1/pydantic_core-2.33.1-pp311-pypy311_pp73-win_amd64.whl", hash = "sha256:f995719707e0e29f0f41a8aa3bcea6e761a36c9136104d3189eafb83f5cec5e5" },
+]
+
+[[package]]
+name = "pyglm"
+version = "2.8.1"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1.tar.gz", hash = "sha256:74eb44cf338e09a03bed6fd3804c6d1556dac79a00220367d70a0cc18ff21733" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:c4c7787061424dfd0e3c58533e11a8c61fce5b1afc772bfefa8ed4f624f01465" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:8f6b33ab4effda3b18f4ec4bafda9d106826433ab7ddc1838c071e70eacc52c7" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:05a101dbd363c9f58dc70b34adfdd0b82631b226504c67fdd7343ea8fa659a8b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:ae31cc35ea39bd307765b10fa404bf578d313afdbfd49a589dcad8fd8360b191" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c21bcdfd4e980fde329dbb10c8273ff8dc4f0ea92eda208c85d60fdfb4e33d4e" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp311-cp311-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:f106806cdcbe405f6cf1936dd61c2501df28812122c53ed693dfaf01d6e94cb6" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:afe85640063c77776f13ca84d41039a2b8a9fbc909504842c9484cadc7914cae" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp311-cp311-musllinux_1_2_aarch64.whl", hash = "sha256:4b66f56d04c5feec4734359da41e6db32f96334dc74afe92f49b592a0e80e236" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp311-cp311-musllinux_1_2_i686.whl", hash = "sha256:97ab1e83882a13879d04f395991f4e2bee63757b29c2f5baab3f7299313e0451" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:64b0dd699bc936e8c2bd0470667c8ddddf7a0c9020e2fad3d12df2006cf678fd" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp311-cp311-win32.whl", hash = "sha256:f634b4b691897ebdad286f6636a16a5ccc0edc723075521d7d03ec762d5c804e" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp311-cp311-win_amd64.whl", hash = "sha256:340d8960eb4a4d8a336d93d84756fa55aacb84ec7824eb07c43872a51fe78fa4" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp311-cp311-win_arm64.whl", hash = "sha256:f48b66b5ad9c7a22d64372cae9d04a7b791dad85a8f9a09762bb713690c2a6f7" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:e5f35b3cfbe23d9e4c684e180fe5ff9365fbf679debd6a659dc93154e7f34ba4" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:4d67669227e67ae42d21c577a9da4d94567ccf5db6c02c7a0531363d29f5e504" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f943b5de0756fa999d30ae6a7fa9e318146de73e636f020a83aae7ab3d2ec058" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp312-cp312-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:081339fec2bc66bdd6e402e3371ef3ba6cc4369fd5a1c08f3048cae837996f12" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:778269ba3677830f8e7a1c31162b24c3e88d072a10e0e8941ff73b2733ab44ed" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:e829fd0a7577cdc86af1acc8aef64eeac4ccd41511a9c526280a1b08c84b0dad" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:937849b077e0a712a25c132236a1d0e1ad3c104067b8899fe0bdba6ae648c4c4" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:19d4503e1394755d5830edd00bdb4b3afa06cae14375beff0e1438c4cb333dbb" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:2658139f27b630e277103c203841d2a7dc93ca5c33cfb8bcd5a597b0e1ed7ea6" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:4b0fb7d13dc8a8b8ec512eb4eb08afd7ecdd26309636fe435cdffdd63bd6577b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp312-cp312-win32.whl", hash = "sha256:72f5d2a34af45ce97ace96fdadb750c6bc809b3fb76510537c1288fbaf3b5165" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp312-cp312-win_amd64.whl", hash = "sha256:cf1dae14742117c05999e609d6ef343148bfa12180b41dd0dfaba8a02f13a8f4" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp312-cp312-win_arm64.whl", hash = "sha256:6c4df07779adcc3f1ace408cf9f28b23c4dba74ca1f32a2577e6bbe854c4571c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:45a4783e8172c2196745550b78b5605c960ca911181a5d2d4547ff42bf48726f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:d3704ae60065ce97c3ab1b9614604c07aa1017256eb4af9d079eeaad5adace60" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f5e17554a06235cfd48af443fa1c24d41ebf41688e998af8a73ac89e0a643ddb" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp313-cp313-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:de73a6051d3a787e8f433c882c7b54c30b2f6ebb11bf70fcc2a5d022cf5082b5" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:223ef580896cfab60192e43622c2e920cc5d433af789f5b25a93d5e21bac1ae1" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:b1814f2bb456e241646adfb6530a54abfae626c72f2dedf6c0746366182ef100" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:4addcda7c3e847984c8b6eee2adc129ba409250705f42dc7944d6665e9be4051" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:6699234b1b075b614ca79004751102b0b218901a5fbe4ca659445edc1fddd25f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:46a8a4ff31e7f79b9e21217459e166e3cc17871de8041ed93be44b7cee5c9754" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:5405fe294c13ab3b3e7fd3a8fbc6e1dd44573a7a81715851a326e0c1919761c1" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp313-cp313-win32.whl", hash = "sha256:513dd5cd61236ac24dedeba3a17716444ecfeeed0dfe2aa1b2205f43bb670bab" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp313-cp313-win_amd64.whl", hash = "sha256:246c18382a39feb4e90694530a9139db133a148e801c7f3a05accaf502e20cac" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyglm/2.8.1/pyglm-2.8.1-cp313-cp313-win_arm64.whl", hash = "sha256:9ad1454e6cca35264a99dc29417699afbb9eb3ce905c71e710a9e0c6fc8fa800" },
+]
+
+[[package]]
+name = "pygments"
+version = "2.19.1"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pygments/2.19.1/pygments-2.19.1.tar.gz", hash = "sha256:61c16d2a8576dc0649d9f39e089b5f02bcd27fba10d8fb4dcc28173f7a45151f" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pygments/2.19.1/pygments-2.19.1-py3-none-any.whl", hash = "sha256:9ea1544ad55cecf4b8242fab6dd35a93bbce657034b0611ee383099054ab6d8c" },
+]
+
+[[package]]
+name = "pymdown-extensions"
+version = "10.14.3"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "markdown" },
+    { name = "pyyaml" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pymdown-extensions/10.14.3/pymdown_extensions-10.14.3.tar.gz", hash = "sha256:41e576ce3f5d650be59e900e4ceff231e0aed2a88cf30acaee41e02f063a061b" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pymdown-extensions/10.14.3/pymdown_extensions-10.14.3-py3-none-any.whl", hash = "sha256:05e0bee73d64b9c71a4ae17c72abc2f700e8bc8403755a00580b49a4e9f189e9" },
+]
+
+[[package]]
+name = "pytest"
+version = "8.3.5"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+    { name = "iniconfig" },
+    { name = "packaging" },
+    { name = "pluggy" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pytest/8.3.5/pytest-8.3.5.tar.gz", hash = "sha256:f4efe70cc14e511565ac476b57c279e12a855b11f48f212af1080ef2263d3845" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pytest/8.3.5/pytest-8.3.5-py3-none-any.whl", hash = "sha256:c69214aa47deac29fad6c2a4f590b9c4a9fdb16a403176fe154b79c0b4d4d820" },
+]
+
+[[package]]
+name = "pytest-asyncio"
+version = "0.26.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "pytest" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pytest-asyncio/0.26.0/pytest_asyncio-0.26.0.tar.gz", hash = "sha256:c4df2a697648241ff39e7f0e4a73050b03f123f760673956cf0d72a4990e312f" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pytest-asyncio/0.26.0/pytest_asyncio-0.26.0-py3-none-any.whl", hash = "sha256:7b51ed894f4fbea1340262bdae5135797ebbe21d8638978e35d31c6d19f72fb0" },
+]
+
+[[package]]
+name = "python-dateutil"
+version = "2.9.0.post0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "six" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/python-dateutil/2.9.0.post0/python-dateutil-2.9.0.post0.tar.gz", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/python-dateutil/2.9.0.post0/python_dateutil-2.9.0.post0-py2.py3-none-any.whl", hash = "sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427" },
+]
+
+[[package]]
+name = "pyyaml"
+version = "6.0.2"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/pyyaml-6.0.2.tar.gz", hash = "sha256:d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:cc1c1159b3d456576af7a3e4d1ba7e6924cb39de8f67111c735f6fc832082774" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:1e2120ef853f59c7419231f3bf4e7021f1b936f6ebd222406c3b60212205d2ee" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:5d225db5a45f21e78dd9358e58a98702a0302f2659a3c6cd320564b75b86f47c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:5ac9328ec4831237bec75defaf839f7d4564be1e6b25ac710bd1a96321cc8317" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3ad2a3decf9aaba3d29c8f537ac4b243e36bef957511b4766cb0057d32b0be85" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp311-cp311-musllinux_1_1_aarch64.whl", hash = "sha256:ff3824dc5261f50c9b0dfb3be22b4567a6f938ccce4587b38952d85fd9e9afe4" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:797b4f722ffa07cc8d62053e4cff1486fa6dc094105d13fea7b1de7d8bf71c9e" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp311-cp311-win32.whl", hash = "sha256:11d8f3dd2b9c1207dcaf2ee0bbbfd5991f571186ec9cc78427ba5bd32afae4b5" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp311-cp311-win_amd64.whl", hash = "sha256:e10ce637b18caea04431ce14fabcf5c64a1c61ec9c56b071a4b7ca131ca52d44" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:c70c95198c015b85feafc136515252a261a84561b7b1d51e3384e0655ddf25ab" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:ce826d6ef20b1bc864f0a68340c8b3287705cae2f8b4b1d932177dcc76721725" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1f71ea527786de97d1a0cc0eacd1defc0985dcf6b3f17bb77dcfc8c34bec4dc5" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:9b22676e8097e9e22e36d6b7bda33190d0d400f345f23d4065d48f4ca7ae0425" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:80bab7bfc629882493af4aa31a4cfa43a4c57c83813253626916b8c7ada83476" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:0833f8694549e586547b576dcfaba4a6b55b9e96098b36cdc7ebefe667dfed48" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:8b9c7197f7cb2738065c481a0461e50ad02f18c78cd75775628afb4d7137fb3b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-win32.whl", hash = "sha256:ef6107725bd54b262d6dedcc2af448a266975032bc85ef0172c5f059da6325b4" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-win_amd64.whl", hash = "sha256:7e7401d0de89a9a855c839bc697c079a4af81cf878373abd7dc625847d25cbd8" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:efdca5630322a10774e8e98e1af481aad470dd62c3170801852d752aa7a783ba" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:50187695423ffe49e2deacb8cd10510bc361faac997de9efef88badc3bb9e2d1" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0ffe8360bab4910ef1b9e87fb812d8bc0a308b0d0eef8c8f44e0254ab3b07133" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:17e311b6c678207928d649faa7cb0d7b4c26a0ba73d41e99c4fff6b6c3276484" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:70b189594dbe54f75ab3a1acec5f1e3faa7e8cf2f1e08d9b561cb41b845f69d5" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-musllinux_1_1_aarch64.whl", hash = "sha256:41e4e3953a79407c794916fa277a82531dd93aad34e29c2a514c2c0c5fe971cc" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-musllinux_1_1_x86_64.whl", hash = "sha256:68ccc6023a3400877818152ad9a1033e3db8625d899c72eacb5a668902e4d652" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-win32.whl", hash = "sha256:bc2fa7c6b47d6bc618dd7fb02ef6fdedb1090ec036abab80d4681424b84c1183" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-win_amd64.whl", hash = "sha256:8388ee1976c416731879ac16da0aff3f63b286ffdd57cdeb95f3f2e085687563" },
+]
+
+[[package]]
+name = "pyyaml-env-tag"
+version = "0.1"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "pyyaml" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml-env-tag/0.1/pyyaml_env_tag-0.1.tar.gz", hash = "sha256:70092675bda14fdec33b31ba77e7543de9ddc88f2e5b99160396572d11525bdb" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/pyyaml-env-tag/0.1/pyyaml_env_tag-0.1-py3-none-any.whl", hash = "sha256:af31106dec8a4d68c60207c1886031cbf839b68aa7abccdb19868200532c2069" },
+]
+
+[[package]]
+name = "requests"
+version = "2.32.3"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "certifi" },
+    { name = "charset-normalizer" },
+    { name = "idna" },
+    { name = "urllib3" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/requests/2.32.3/requests-2.32.3.tar.gz", hash = "sha256:55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/requests/2.32.3/requests-2.32.3-py3-none-any.whl", hash = "sha256:70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6" },
+]
+
+[[package]]
+name = "ruff"
+version = "0.11.4"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4.tar.gz", hash = "sha256:f45bd2fb1a56a5a85fae3b95add03fb185a0b30cf47f5edc92aa0355ca1d7407" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-linux_armv6l.whl", hash = "sha256:d9f4a761ecbde448a2d3e12fb398647c7f0bf526dbc354a643ec505965824ed2" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-macosx_10_12_x86_64.whl", hash = "sha256:8c1747d903447d45ca3d40c794d1a56458c51e5cc1bc77b7b64bd2cf0b1626cc" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-macosx_11_0_arm64.whl", hash = "sha256:51a6494209cacca79e121e9b244dc30d3414dac8cc5afb93f852173a2ecfc906" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:3f171605f65f4fc49c87f41b456e882cd0c89e4ac9d58e149a2b07930e1d466f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:ebf99ea9af918878e6ce42098981fc8c1db3850fef2f1ada69fb1dcdb0f8e79e" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:edad2eac42279df12e176564a23fc6f4aaeeb09abba840627780b1bb11a9d223" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-manylinux_2_17_ppc64.manylinux2014_ppc64.whl", hash = "sha256:f103a848be9ff379fc19b5d656c1f911d0a0b4e3e0424f9532ececf319a4296e" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:193e6fac6eb60cc97b9f728e953c21cc38a20077ed64f912e9d62b97487f3f2d" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:7af4e5f69b7c138be8dcffa5b4a061bf6ba6a3301f632a6bce25d45daff9bc99" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:126b1bf13154aa18ae2d6c3c5efe144ec14b97c60844cfa6eb960c2a05188222" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-musllinux_1_2_aarch64.whl", hash = "sha256:e8806daaf9dfa881a0ed603f8a0e364e4f11b6ed461b56cae2b1c0cab0645304" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-musllinux_1_2_armv7l.whl", hash = "sha256:5d94bb1cc2fc94a769b0eb975344f1b1f3d294da1da9ddbb5a77665feb3a3019" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-musllinux_1_2_i686.whl", hash = "sha256:995071203d0fe2183fc7a268766fd7603afb9996785f086b0d76edee8755c896" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-musllinux_1_2_x86_64.whl", hash = "sha256:7a37ca937e307ea18156e775a6ac6e02f34b99e8c23fe63c1996185a4efe0751" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-win32.whl", hash = "sha256:0e9365a7dff9b93af933dab8aebce53b72d8f815e131796268709890b4a83270" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-win_amd64.whl", hash = "sha256:5a9fa1c69c7815e39fcfb3646bbfd7f528fa8e2d4bebdcf4c2bd0fa037a255fb" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/ruff/0.11.4/ruff-0.11.4-py3-none-win_arm64.whl", hash = "sha256:d435db6b9b93d02934cf61ef332e66af82da6d8c69aefdea5994c89997c7a0fc" },
+]
+
+[[package]]
+name = "setuptools"
+version = "78.1.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/setuptools/78.1.0/setuptools-78.1.0.tar.gz", hash = "sha256:18fd474d4a82a5f83dac888df697af65afa82dec7323d09c3e37d1f14288da54" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/setuptools/78.1.0/setuptools-78.1.0-py3-none-any.whl", hash = "sha256:3e386e96793c8702ae83d17b853fb93d3e09ef82ec62722e61da5cd22376dcd8" },
+]
+
+[[package]]
+name = "six"
+version = "1.17.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/six/1.17.0/six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/six/1.17.0/six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274" },
+]
+
+[[package]]
+name = "tongsim"
+source = { editable = "." }
+dependencies = [
+    { name = "grpcio" },
+    { name = "grpcio-tools" },
+    { name = "pydantic" },
+    { name = "pyglm" },
+    { name = "tongsim-api-protocol" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "black" },
+    { name = "pre-commit" },
+    { name = "ruff" },
+]
+docs = [
+    { name = "mkdocs" },
+    { name = "mkdocs-material" },
+    { name = "mkdocs-redirects" },
+    { name = "mkdocstrings-python" },
+]
+test = [
+    { name = "numpy" },
+    { name = "pytest" },
+    { name = "pytest-asyncio" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "grpcio", specifier = ">=1.71.0" },
+    { name = "grpcio-tools", specifier = ">=1.71.0" },
+    { name = "pydantic", specifier = ">=2.11.3" },
+    { name = "pyglm", specifier = ">=2.8.1" },
+    { name = "tongsim-api-protocol", specifier = "==0.0.27" },
+]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "black", specifier = ">=24.10.0" },
+    { name = "pre-commit", specifier = ">=4.2.0" },
+    { name = "ruff", specifier = ">=0.9.1" },
+]
+docs = [
+    { name = "mkdocs", specifier = ">=1.6.1" },
+    { name = "mkdocs-material", specifier = ">=9.6.9" },
+    { name = "mkdocs-redirects", specifier = ">=1.2.2" },
+    { name = "mkdocstrings-python", specifier = ">=1.16.8" },
+]
+test = [
+    { name = "numpy", specifier = ">=2.2.4" },
+    { name = "pytest", specifier = ">=8.3.5" },
+    { name = "pytest-asyncio", specifier = ">=0.26.0" },
+]
+
+[[package]]
+name = "tongsim-api-protocol"
+version = "0.0.27"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/tongsim-api-protocol/0.0.27/tongsim_api_protocol-0.0.27.tar.gz", hash = "md5:6d8626ac6daec089715ab9f3e655d696" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/tongsim-api-protocol/0.0.27/tongsim_api_protocol-0.0.27-py3-none-any.whl", hash = "md5:a1cc49a83b59382187a3349a771ea8ec" },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.13.2"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/typing-extensions/4.13.2/typing_extensions-4.13.2.tar.gz", hash = "sha256:e6c81219bd689f51865d9e372991c540bda33a0379d5573cddb9a3a23f7caaef" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/typing-extensions/4.13.2/typing_extensions-4.13.2-py3-none-any.whl", hash = "sha256:a439e7c04b49fec3e5d3e2beaa21755cadbbdc391694e28ccdd36ca4a1408f8c" },
+]
+
+[[package]]
+name = "typing-inspection"
+version = "0.4.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/typing-inspection/0.4.0/typing_inspection-0.4.0.tar.gz", hash = "sha256:9765c87de36671694a67904bf2c96e395be9c6439bb6c87b5142569dcdd65122" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/typing-inspection/0.4.0/typing_inspection-0.4.0-py3-none-any.whl", hash = "sha256:50e72559fcd2a6367a19f7a7e610e6afcb9fac940c650290eed893d61386832f" },
+]
+
+[[package]]
+name = "urllib3"
+version = "2.3.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/urllib3/2.3.0/urllib3-2.3.0.tar.gz", hash = "sha256:f8c5449b3cf0861679ce7e0503c7b44b5ec981bec0d1d3795a07f1ba96f0204d" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/urllib3/2.3.0/urllib3-2.3.0-py3-none-any.whl", hash = "sha256:1cee9ad369867bfdbbb48b7dd50374c0967a0bb7710050facf0dd6911440e3df" },
+]
+
+[[package]]
+name = "virtualenv"
+version = "20.29.3"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+dependencies = [
+    { name = "distlib" },
+    { name = "filelock" },
+    { name = "platformdirs" },
+]
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/virtualenv/20.29.3/virtualenv-20.29.3.tar.gz", hash = "sha256:95e39403fcf3940ac45bc717597dba16110b74506131845d9b687d5e73d947ac" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/virtualenv/20.29.3/virtualenv-20.29.3-py3-none-any.whl", hash = "sha256:3e3d00f5807e83b234dfb6122bf37cfadf4be216c53a49ac059d02414f819170" },
+]
+
+[[package]]
+name = "watchdog"
+version = "6.0.0"
+source = { registry = "https://nexus.mybigai.ac.cn/repository/pypi/simple" }
+sdist = { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0.tar.gz", hash = "sha256:9ddf7c82fda3ae8e24decda1338ede66e1c99883db93711d8fb941eaa2d8c282" }
+wheels = [
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:6eb11feb5a0d452ee41f824e271ca311a09e250441c262ca2fd7ebcf2461a06c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:ef810fbf7b781a5a593894e4f439773830bdecb885e6880d957d5b9382a960d2" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:afd0fe1b2270917c5e23c2a65ce50c2a4abb63daafb0d419fde368e272a76b7c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:bdd4e6f14b8b18c334febb9c4425a878a2ac20efd1e0b231978e7b150f92a948" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:c7c15dda13c4eb00d6fb6fc508b3c0ed88b9d5d374056b239c4ad1611125c860" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:6f10cb2d5902447c7d0da897e2c6768bca89174d0c6e1e30abec5421af97a5b0" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:490ab2ef84f11129844c23fb14ecf30ef3d8a6abafd3754a6f75ca1e6654136c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:76aae96b00ae814b181bb25b1b98076d5fc84e8a53cd8885a318b42b6d3a5134" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:a175f755fc2279e0b7312c0035d52e27211a5bc39719dd529625b1930917345b" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-py3-none-manylinux2014_aarch64.whl", hash = "sha256:7607498efa04a3542ae3e05e64da8202e58159aa1fa4acddf7678d34a35d4f13" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-py3-none-manylinux2014_armv7l.whl", hash = "sha256:9041567ee8953024c83343288ccc458fd0a2d811d6a0fd68c4c22609e3490379" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-py3-none-manylinux2014_i686.whl", hash = "sha256:82dc3e3143c7e38ec49d61af98d6558288c415eac98486a5c581726e0737c00e" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-py3-none-manylinux2014_ppc64.whl", hash = "sha256:212ac9b8bf1161dc91bd09c048048a95ca3a4c4f5e5d4a7d1b1a7d5752a7f96f" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-py3-none-manylinux2014_ppc64le.whl", hash = "sha256:e3df4cbb9a450c6d49318f6d14f4bbc80d763fa587ba46ec86f99f9e6876bb26" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-py3-none-manylinux2014_s390x.whl", hash = "sha256:2cce7cfc2008eb51feb6aab51251fd79b85d9894e98ba847408f662b3395ca3c" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl", hash = "sha256:20ffe5b202af80ab4266dcd3e91aae72bf2da48c0d33bdb15c66658e685e94e2" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-py3-none-win32.whl", hash = "sha256:07df1fdd701c5d4c8e55ef6cf55b8f0120fe1aef7ef39a1c6fc6bc2e606d517a" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-py3-none-win_amd64.whl", hash = "sha256:cbafb470cf848d93b5d013e2ecb245d4aa1c8fd0504e863ccefa32445359d680" },
+    { url = "https://nexus.mybigai.ac.cn/repository/pypi/packages/watchdog/6.0.0/watchdog-6.0.0-py3-none-win_ia64.whl", hash = "sha256:a1914259fa9e1454315171103c6a30961236f508b9b623eae470268bbcc6a22f" },
+]

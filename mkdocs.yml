@@ -1,0 +1,148 @@
+site_name: TongSim
+site_description: TongSim site description
+repo_url: https://github.com/bigai-ai/tongsim-agiuc-sdk/
+repo_name: bigai-ai/tongsim-agiuc-sdk/
+site_dir: public
+copyright: Copyright &copy; 2025 BIGAI
+strict: true
+
+theme:
+  name: 'material'
+  palette:                                                  # 提供 深色 和 浅色 两个模式
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: red
+    accent: pink
+    toggle:
+      icon: material/lightbulb-outline
+      name: "Switch to dark mode"
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: blue
+    accent: pink
+    toggle:
+      icon: material/lightbulb
+      name: "Switch to system preference"
+  features:
+    - content.tabs.link              #  让 tab（标签页）之间可以相互链接（支持锚点跳转）
+    - content.code.annotate          #  支持在代码块中使用注释标签（例如 `# (1)`）并在下面配对注释说明
+    - content.code.copy              #  在代码块右上角显示“复制”按钮，方便用户复制代码
+    - navigation.tabs                #  使用顶部导航栏样式（每个一级目录会作为一个 Tab 显示）
+    - navigation.instant             #  启用即时导航，无需页面刷新即可跳转（基于 PJAX）
+    - navigation.instant.prefetch    #  预加载即将访问的页面，加快跳转速度（鼠标悬停或滚动到链接时）
+    - navigation.path                #  页面上方显示当前位置路径（breadcrumb 样式的导航路径）
+    - navigation.sections            #  在侧边栏中按 section（章节）分组显示导航结构
+    - navigation.top                 #  页面滚动后右下角会出现“返回顶部”按钮
+    - navigation.tracking            #  根据滚动位置高亮侧边栏对应的标题项（增强阅读定位）
+    - search.suggest                 #  启用搜索建议，在用户输入关键词时显示智能补全
+    - toc.follow                     #  固定侧边 TOC（目录）位置，并高亮当前阅读位置
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# https://www.mkdocs.org/user-guide/configuration/#validation
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+
+extra_css:
+  - 'extra/terminal.css'
+  - 'extra/tweaks.css'
+
+# Extensions
+markdown_extensions:
+  - tables  # 启用原生 Markdown 表格语法支持
+  - toc:     # 启用目录（Table of Contents）支持
+      permalink: true        # 为每个标题添加锚点链接（🔗 图标）
+      title: Page contents   # 设置 TOC 的标题文本
+  - admonition  # 启用提示块语法（!!! note/info/warning 等）
+  - pymdownx.details  # 支持可折叠的详情块（用于隐藏内容）
+  - pymdownx.superfences  # 支持多语言代码块嵌套和扩展语法
+  - pymdownx.highlight:   # 启用代码语法高亮扩展（基于 Pygments）
+      pygments_lang_class: true  # 为代码块添加语言类名，支持更灵活的样式控制
+  - pymdownx.extra  # 启用一组常用扩展（包含 smarty、mark、tasklist 等）
+  - pymdownx.emoji:  # 启用 Emoji 支持
+      emoji_index: !!python/name:material.extensions.emoji.twemoji  # 使用 Twemoji 索引
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg  # 使用 SVG 图标渲染 Emoji
+  - pymdownx.tabbed:   # 启用标签页（用于内容切换）
+      alternate_style: true  # 启用备用样式，更贴合 Material 主题外观
+
+# Plugins
+plugins:
+- search
+- mkdocstrings:
+    default_handler: python
+    handlers:
+      python:
+        paths: ["src"]
+        options:
+          members_order: source
+          separate_signature: true
+          filters: ["!^_"]
+          docstring_options:
+            ignore_init_summary: true
+          merge_init_into_class: false
+          show_signature_annotations: true
+          signature_crossrefs: true
+          group_by_category: true
+          show_source: true
+          show_root_heading: true
+          show_docstring_modules: false
+
+# Page tree
+nav:
+  - Getting Started:
+    - Welcome to TongSim: index.md
+    - 运行环境搭建:
+      - 🌟 总览: getting_started/overview.md
+      - 🛠️ 安装 TongSim 客户端:
+        - Windows 平台: getting_started/windows_client_installation.md
+        - Ubuntu Docker 镜像: getting_started/ubuntu_docker_installation.md
+      - 🐍 安装 TongSim Python SDK: getting_started/python_sdk_installation.md
+  - Concepts:
+    - TongSim 架构: concepts/overview.md
+    - TongSim Python SDK:
+      - WorldContext: concepts/context.md
+      - Level: concepts/level.md
+      - Observation:
+        - GroudTruth(PG):
+          - PG 获取: concepts/pg_manager.md
+          - PG 内容参考: concepts/pg.md
+        - Camera: concepts/camera.md
+      - Entity:
+        - Entity: concepts/entity.md
+        - Ability: concepts/ability.md
+      - Action: concepts/action.md
+
+  # - Examples:
+  - API Documentation:
+    - TongSim: api/tongsim.md
+    - WorldContext: api/core_world_context.md
+    - Type: api/type.md
+    - Entity:
+      - Base: api/entity_base.md
+      - Mixin: api/entity_mixin.md
+      - Ability:
+        - AgentAction: api/ability_action.md
+        - Asset: api/ability_asset.md
+        - Camera: api/ability_camera.md
+        - Consumable: api/ability_consumable_energy.md
+        - Interactable: api/ability_interactable.md
+        - Powerable: api/ability_powerable.md
+        - Scene: api/ability_scene.md
+        - CollisionShape: api/ability_collision_shape.md
+    - Action:
+      - Base: api/action_base.md
+      - Impl: api/action_impl.md
+    - Manager:
+      - PG: api/manager_pg.md
+      - Spatial: api/manager_spatial.md
+
+  - 开发指南:
+    - TongSim-Python:
+      - 💻 开发环境: dev_guide/setup.md
+      - 🧬 单元测试：使用 Pytest : dev_guide/testing.md
+      - 📋 常用命令行指令: dev_guide/cli.md
