@@ -997,7 +997,7 @@ name = "tongsim-api-protocol"
 version = "0.0.27"
 source = { url = "https://github.com/bigai-ai/tongsim-agiuc-sdk/releases/download/v0.3.2/tongsim_api_protocol-0.0.27-py3-none-any.whl" }
 wheels = [
-    { url = "https://github.com/bigai-ai/tongsim-agiuc-sdk/releases/download/v0.3.2/tongsim_api_protocol-0.0.27-py3-none-any.whl", hash = "sha256:8c03a582d4a3d44e89ab3caef8c4fbcc45031dcdd2b9396fc908399b55cdb38f" },
+    { url = "https://github.com/bigai-ai/tongsim-agiuc-sdk/releases/download/v0.3.2/tongsim_api_protocol-0.0.27-py3-none-any.whl", hash = "sha256:bd31310024d5dd775fc0f9d880068bdefb4f331eb26f56cacd142717db3943c5" },
 ]
 
 [[package]]
