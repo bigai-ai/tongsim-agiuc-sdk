@@ -98,10 +98,7 @@ nav:
     - Welcome to TongSim: index.md
     - 运行环境搭建:
       - 🌟 总览: getting_started/overview.md
-      - 🛠️ 安装 TongSim 客户端:
-        - Windows 平台: getting_started/windows_client_installation.md
-        - Ubuntu Docker 镜像: getting_started/ubuntu_docker_installation.md
-      - 🐍 安装 TongSim Python SDK: getting_started/python_sdk_installation.md
+      
   - Concepts:
     - TongSim 架构: concepts/overview.md
     - TongSim Python SDK:
